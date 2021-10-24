@@ -1,7 +1,7 @@
 {
   "name": "{{ appName }}",
-  "description": "",
-  "version": "0.0.1",
+  "description": "{{ description }}",
+  "version": "{{ version }}",
   "author": "{{ author }}",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
